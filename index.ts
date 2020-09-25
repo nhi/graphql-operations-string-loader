@@ -1,4 +1,3 @@
-import os from 'os'
 import gql from 'graphql-tag'
 import {print} from 'graphql'
 
@@ -15,5 +14,5 @@ export default function(source) {
   if (operations.length === 1) {
     operations.push(operations[0].replace(/.*=/, "export default"))
   }
-  return  operations.join(os.EOL)
+  return  operations.join("\n")
 };
