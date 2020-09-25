@@ -1,0 +1,39 @@
+{
+  "name": "graphql-operations-string-loader",
+  "version": "1.0.0",
+  "description": "Import .graphql or .gql files as simple strings (supports multiple operations per file)",
+  "main": "index.js",
+  "author": {
+    "name": "Balázs Orbán",
+    "email": "info@balazsorban.com",
+    "url": "https://balazsorban.com"
+  },
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "prepublish": "yarn build",
+    "build": "yarn tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "graphql": "^15.3.0",
+    "graphql-tag": "^2.11.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.11.2",
+    "typescript": "^4.0.2"
+  },
+  "keywords": [
+    "webpack",
+    "loader",
+    "graphql"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhi/graphql-operations-string-loader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nhi/graphql-operations-string-loader/issues"
+  },
+  "homepage": "https://github.com/nhi/graphql-operations-string-loader"
+}
