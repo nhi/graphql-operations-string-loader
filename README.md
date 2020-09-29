@@ -1,5 +1,7 @@
 # graphql-operations-string-loader
 
+![npm version](https://img.shields.io/npm/v/graphql-operations-string-loader?style=for-the-badge) ![npm trends](https://img.shields.io/npm/dw/graphql-operations-string-loader?style=for-the-badge)
+
 A webpack loader to import operations from .graphql or .gql file as simple strings 
 
 Supports:
