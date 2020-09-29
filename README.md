@@ -1,4 +1,6 @@
-# graphql-operations-string-loader
+# graphql-operations-string-loader <img height="36" src="https://upload.wikimedia.org/wikipedia/commons/1/17/GraphQL_Logo.svg" alt="GraphQL logo"/> <img height="36" src="https://raw.githubusercontent.com/webpack/media/master/logo/logo-on-white-bg.svg" alt="Webpack logo"/>
+
+![npm version](https://img.shields.io/npm/v/graphql-operations-string-loader?style=for-the-badge) ![npm trends](https://img.shields.io/npm/dw/graphql-operations-string-loader?style=for-the-badge)
 
 A webpack loader to import operations from .graphql or .gql file as simple strings 
 
