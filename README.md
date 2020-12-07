@@ -30,7 +30,7 @@ query Book($id: String!) {
   }
 }
 ```
-Prodcues:
+Produces:
 ```js
 export const Books = `query Books {
   book {
